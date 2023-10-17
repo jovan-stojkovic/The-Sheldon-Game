@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Sheldon Game</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <h1>The Sheldon Game</h1>
     <p>Pick your move Carefully:</p>
     <div class="moves">
-      <button>Rock</button>
-      <button>Paper</button>
-      <button>Scissors</button>
-      <button>Lizzard</button>
-      <button>Spock</button>
+      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-rock.svg" id="rock">
+      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-paper.svg" id="paper">
+      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-scissors.svg" id="scissors">
+      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-lizard.svg" id="lizard">
+      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-spock.svg" id="spock">
+
+
+
+      <!-- <button id="rock" >Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+      <button id="lizard">Lizard</button>
+      <button id="spock">Spock</button> -->
     </div>
+
+    <div id="my-move"></div>
+    <div id="comp-move"></div>
+
+    <p id="info"></p>
+
+    <div class="results">
+      <div class="my-score">0</div>
+   <div class="computer-score">0</div>
+    </div>
+
   </body>
 </html>
