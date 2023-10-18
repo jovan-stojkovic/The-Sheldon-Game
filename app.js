@@ -130,3 +130,4 @@ moveSpock.addEventListener("click", function () {
   myMove.innerHTML = "spock";
   compMove.innerHTML = computerMove;
 });
+

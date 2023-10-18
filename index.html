@@ -8,33 +8,41 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>The Sheldon Game</h1>
-    <p>Pick your move Carefully:</p>
-    <div class="moves">
-      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-rock.svg" id="rock">
-      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-paper.svg" id="paper">
-      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-scissors.svg" id="scissors">
-      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-lizard.svg" id="lizard">
-      <img src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-spock.svg" id="spock">
+    <div class="container">
+      <h1>The Sheldon Game</h1>
+      <p class="pick">Pick your move Carefully:</p>
+      <div class="moves">
+        <img
+          src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-rock.svg"
+          id="rock"
+        />
+        <img
+          src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-paper.svg"
+          id="paper"
+        />
+        <img
+          src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-scissors.svg"
+          id="scissors"
+        />
+        <img
+          src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-lizard.svg"
+          id="lizard"
+        />
+        <img
+          src="https://www.iconbolt.com/iconsets/font-awesome-regular/hand-spock.svg"
+          id="spock"
+        />
+      </div>
 
+      <div id="my-move"></div>
+      <div id="comp-move"></div>
 
+      <p id="info"></p>
 
-      <!-- <button id="rock" >Rock</button>
-      <button id="paper">Paper</button>
-      <button id="scissors">Scissors</button>
-      <button id="lizard">Lizard</button>
-      <button id="spock">Spock</button> -->
+      <div class="results">
+        <div class="my-score">0</div>
+        <div class="computer-score">0</div>
+      </div>
     </div>
-
-    <div id="my-move"></div>
-    <div id="comp-move"></div>
-
-    <p id="info"></p>
-
-    <div class="results">
-      <div class="my-score">0</div>
-   <div class="computer-score">0</div>
-    </div>
-
   </body>
 </html>
